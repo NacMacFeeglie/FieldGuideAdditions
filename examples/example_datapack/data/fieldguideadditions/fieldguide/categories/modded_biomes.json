@@ -1,0 +1,12 @@
+{
+  "sort_index": 2,
+  "icon": "minecraft:grass_block",
+  "contents": [
+    {
+      "type": "virtual_entry",
+      "id": "fieldguideadditions:rainforest",
+      "virtual_type": "tutorial",
+      "icon": "fieldguideadditions:textures/fieldguide/entries/rainforest_page.png"
+    }
+  ]
+}

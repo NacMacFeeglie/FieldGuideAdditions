@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:small_end_islands"
+      ],
+      "unlock": "fieldguideadditions:small_end_islands"
+    }
+  ]
+}

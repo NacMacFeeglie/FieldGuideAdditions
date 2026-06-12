@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:warped_forest"
+      ],
+      "unlock": "fieldguideadditions:warped_forest"
+    }
+  ]
+}

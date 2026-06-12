@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:grove"
+      ],
+      "unlock": "fieldguideadditions:grove"
+    }
+  ]
+}

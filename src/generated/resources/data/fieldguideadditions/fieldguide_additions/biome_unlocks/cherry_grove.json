@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:cherry_grove"
+      ],
+      "unlock": "fieldguideadditions:cherry_grove"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:snowy_taiga"
+      ],
+      "unlock": "fieldguideadditions:snowy_taiga"
+    }
+  ]
+}

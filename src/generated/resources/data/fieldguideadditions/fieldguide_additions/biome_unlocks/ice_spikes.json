@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:ice_spikes"
+      ],
+      "unlock": "fieldguideadditions:ice_spikes"
+    }
+  ]
+}

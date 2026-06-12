@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:plains"
+      ],
+      "unlock": "fieldguideadditions:plains"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+BIOME UNLOCKS
+
+This file controls which biome must be discovered before a Field Guide entry is unlocked.
+
+Example:
+
+{
+"entries": [
+{
+"biomes": [
+"biomesoplenty:rainforest"
+],
+"unlock": "fieldguideadditions:rainforest"
+}
+]
+}
+
+FIELD EXPLANATIONS
+
+"biomes"
+
+A list of biome IDs that will unlock the Field Guide entry when discovered by the player.
+
+Example:
+
+biomesoplenty:rainforest
+
+This is the actual biome ID from the biome mod.
+
+Additional biomes may be added to the list:
+
+{
+"biomes": [
+"biomesoplenty:rainforest",
+"regions_unexplored:redwoods"
+]
+}
+
+Discovering any of these biomes will unlock the entry.
+
+"unlock"
+
+The Field Guide entry that should be unlocked.
+
+Example:
+
+fieldguideadditions:rainforest
+
+IMPORTANT
+
+This ID must match the entry ID used in:
+
+examples/example_datapack/data/fieldguideadditions/fieldguide/categories/modded_biomes.json
+
+Example:
+
+{
+"type": "virtual_entry",
+"id": "fieldguideadditions:rainforest",
+"virtual_type": "tutorial"
+}
+
+The unlock ID should also match any associated:
+
+* Lang keys
+* Loot modifiers
+* Biome images
+
+FULL EXAMPLE
+
+{
+"entries": [
+{
+"biomes": [
+"biomesoplenty:rainforest"
+],
+"unlock": "fieldguideadditions:rainforest"
+}
+]
+}
+
+This means:
+
+When the player discovers:
+
+biomesoplenty:rainforest
+
+The following Field Guide entry will be unlocked:
+
+fieldguideadditions:rainforest
+
+REMEMBER
+
+The biome ID and the Field Guide entry ID are NOT the same thing.
+
+Biome ID:
+biomesoplenty:rainforest
+
+Field Guide Entry ID:
+fieldguideadditions:rainforest
+
+The Field Guide Entry ID must match everywhere:
+
+Category Entry:
+fieldguideadditions:rainforest
+
+Biome Unlock:
+fieldguideadditions:rainforest
+
+Lang Name:
+fieldguide.name.fieldguideadditions.rainforest
+
+Lang Description:
+fieldguide.fieldguideadditions.rainforest.description
+
+Loot Modifiers:
+fieldguideadditions:rainforest
+
+If the IDs do not match exactly, the biome entry may not unlock or display correctly.

@@ -1,0 +1,112 @@
+RECIPE ENTRY MAPPINGS
+
+This file links a Field Guide recipe entry to an actual Minecraft recipe.
+
+Example:
+
+{
+"entries": [
+{
+"entry": "fieldguideadditions:crafting_table_recipe",
+"recipe": "minecraft:crafting_table"
+}
+]
+}
+
+FIELD EXPLANATIONS
+
+"entry"
+
+The Field Guide entry ID.
+
+Example:
+
+fieldguideadditions:crafting_table_recipe
+
+IMPORTANT
+
+This ID must match the recipe entry ID used in:
+
+examples/example_datapack/data/fieldguideadditions/fieldguide/categories/recipes.json
+
+Example:
+
+{
+"type": "virtual_entry",
+"id": "fieldguideadditions:crafting_table_recipe",
+"virtual_type": "tutorial"
+}
+
+The ID should also match any lang keys and loot modifier entries associated with the recipe.
+
+Example:
+
+fieldguide.name.fieldguideadditions.crafting_table_recipe
+
+fieldguide.fieldguideadditions.crafting_table_recipe.description
+
+"recipe"
+
+The Minecraft recipe ID that will be displayed in the Field Guide.
+
+Examples:
+
+minecraft:crafting_table
+minecraft:hay_block
+minecraft:slime_block
+
+Modded recipes may also be used:
+
+mymod:primitive_fire
+mymod:stone_axe
+mymod:plant_fibre
+
+FULL EXAMPLE
+
+{
+"entry": "fieldguideadditions:crafting_table_recipe",
+"recipe": "minecraft:crafting_table"
+}
+
+This tells Field Guide to display the recipe:
+
+minecraft:crafting_table
+
+inside the entry:
+
+fieldguideadditions:crafting_table_recipe
+
+ADDING MORE RECIPES
+
+You can add additional recipe mappings by creating more entries:
+
+{
+"entries": [
+{
+"entry": "fieldguideadditions:crafting_table_recipe",
+"recipe": "minecraft:crafting_table"
+},
+{
+"entry": "fieldguideadditions:primitive_fire_recipe",
+"recipe": "mymod:primitive_fire"
+}
+]
+}
+
+REMEMBER
+
+The entry ID must match everywhere:
+
+Category Entry:
+fieldguideadditions:primitive_fire_recipe
+
+Recipe Mapping:
+fieldguideadditions:primitive_fire_recipe
+
+Lang Name:
+fieldguide.name.fieldguideadditions.primitive_fire_recipe
+
+Lang Description:
+fieldguide.fieldguideadditions.primitive_fire_recipe.description
+
+If the IDs do not match exactly, the recipe entry may not display correctly.

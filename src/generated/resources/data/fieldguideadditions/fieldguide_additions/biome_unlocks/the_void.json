@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:the_void"
+      ],
+      "unlock": "fieldguideadditions:the_void"
+    }
+  ]
+}

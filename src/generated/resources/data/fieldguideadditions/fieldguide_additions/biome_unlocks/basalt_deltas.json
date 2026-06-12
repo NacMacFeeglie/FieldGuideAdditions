@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:basalt_deltas"
+      ],
+      "unlock": "fieldguideadditions:basalt_deltas"
+    }
+  ]
+}

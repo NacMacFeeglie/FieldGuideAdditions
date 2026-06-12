@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:sunflower_plains"
+      ],
+      "unlock": "fieldguideadditions:sunflower_plains"
+    }
+  ]
+}

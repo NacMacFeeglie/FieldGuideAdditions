@@ -1,0 +1,101 @@
+LOOT MODIFIERS (BIOME FINDS)
+
+This file controls the items displayed beneath a biome image in the Field Guide.
+
+Example:
+
+{
+"additions": [
+{
+"entry": "fieldguideadditions:rainforest",
+"value": "minecraft:bamboo"
+},
+{
+"entry": "fieldguideadditions:rainforest",
+"value": "minecraft:melon"
+}
+]
+}
+
+FIELD EXPLANATIONS
+
+"entry"
+
+This is the Field Guide entry that the item will be added to.
+
+Example:
+
+fieldguideadditions:rainforest
+
+IMPORTANT
+
+The entry ID must match the ID used in:
+
+examples/example_datapack/data/fieldguideadditions/fieldguide/categories/modded_biomes.json
+
+Example:
+
+{
+"type": "virtual_entry",
+"id": "fieldguideadditions:rainforest",
+"virtual_type": "tutorial",
+"icon": "fieldguideadditions:textures/fieldguide/entries/rainforest_page.png"
+}
+
+Because the category entry uses:
+
+fieldguideadditions:rainforest
+
+the loot modifier must also use:
+
+fieldguideadditions:rainforest
+
+If the IDs do not match exactly, the items will not appear beneath the biome image.
+
+"value"
+
+The item that will be displayed beneath the biome image.
+
+This can be any valid item ID.
+
+Examples:
+
+minecraft:bamboo
+minecraft:melon
+minecraft:apple
+biomesoplenty:pineapple
+
+MULTIPLE ITEMS
+
+You can add as many items as you wish by creating additional entries.
+
+Example:
+
+{
+"additions": [
+{
+"entry": "fieldguideadditions:rainforest",
+"value": "minecraft:bamboo"
+},
+{
+"entry": "fieldguideadditions:rainforest",
+"value": "minecraft:melon"
+},
+{
+"entry": "fieldguideadditions:rainforest",
+"value": "biomesoplenty:pineapple"
+}
+]
+}
+
+EXAMPLE
+
+Category Entry ID:
+fieldguideadditions:rainforest
+
+Loot Modifier Entry:
+fieldguideadditions:rainforest
+
+Both IDs must match exactly.
+
+The items added with the "value" field will then be displayed beneath the biome image in the Field Guide.

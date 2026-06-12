@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:crimson_forest"
+      ],
+      "unlock": "fieldguideadditions:crimson_forest"
+    }
+  ]
+}

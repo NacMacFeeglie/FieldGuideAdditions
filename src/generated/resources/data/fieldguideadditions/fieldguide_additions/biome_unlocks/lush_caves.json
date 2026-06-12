@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:lush_caves"
+      ],
+      "unlock": "fieldguideadditions:lush_caves"
+    }
+  ]
+}

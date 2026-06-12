@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:end_midlands"
+      ],
+      "unlock": "fieldguideadditions:end_midlands"
+    }
+  ]
+}

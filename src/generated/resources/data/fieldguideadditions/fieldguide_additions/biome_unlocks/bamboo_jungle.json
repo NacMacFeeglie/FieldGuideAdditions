@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:bamboo_jungle"
+      ],
+      "unlock": "fieldguideadditions:bamboo_jungle"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:jagged_peaks"
+      ],
+      "unlock": "fieldguideadditions:jagged_peaks"
+    }
+  ]
+}

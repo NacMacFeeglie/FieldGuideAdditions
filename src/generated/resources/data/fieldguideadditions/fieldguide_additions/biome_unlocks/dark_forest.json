@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:dark_forest"
+      ],
+      "unlock": "fieldguideadditions:dark_forest"
+    }
+  ]
+}

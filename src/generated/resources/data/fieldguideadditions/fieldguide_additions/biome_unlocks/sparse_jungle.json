@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:sparse_jungle"
+      ],
+      "unlock": "fieldguideadditions:sparse_jungle"
+    }
+  ]
+}

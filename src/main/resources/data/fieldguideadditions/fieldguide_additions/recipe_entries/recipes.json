@@ -1,0 +1,16 @@
+{
+  "entries": [
+    {
+      "entry": "fieldguideadditions:crafting_table_recipe",
+      "recipe": "minecraft:crafting_table"
+    },
+    {
+      "entry": "fieldguideadditions:hay_block_recipe",
+      "recipe": "minecraft:hay_block"
+    },
+    {
+      "entry": "fieldguideadditions:slime_block_recipe",
+      "recipe": "minecraft:slime_block"
+    }
+  ]
+}

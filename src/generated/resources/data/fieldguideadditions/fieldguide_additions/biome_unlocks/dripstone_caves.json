@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:dripstone_caves"
+      ],
+      "unlock": "fieldguideadditions:dripstone_caves"
+    }
+  ]
+}

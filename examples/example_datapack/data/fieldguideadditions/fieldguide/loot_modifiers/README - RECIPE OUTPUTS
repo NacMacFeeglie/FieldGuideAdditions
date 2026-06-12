@@ -1,0 +1,72 @@
+RECIPE OUTPUTS / FINDS
+
+This file controls the item icons displayed underneath a recipe entry in the Field Guide.
+
+Example:
+
+{
+"additions": [
+{
+"entry": "fieldguideadditions:crafting_table_recipe",
+"value": "minecraft:crafting_table"
+}
+]
+}
+
+FIELD EXPLANATIONS
+
+"entry"
+
+The Field Guide entry ID that the item should be added to.
+
+Example:
+
+fieldguideadditions:crafting_table_recipe
+
+IMPORTANT
+
+This ID must match the recipe entry ID used in:
+
+examples/example_datapack/data/fieldguideadditions/fieldguide/categories/recipes.json
+
+It should also match the recipe mapping file and lang keys.
+
+"value"
+
+The item that will be displayed underneath the recipe grid.
+
+Example:
+
+minecraft:crafting_table
+
+FULL EXAMPLE
+
+{
+"entry": "fieldguideadditions:crafting_table_recipe",
+"value": "minecraft:crafting_table"
+}
+
+This displays the Crafting Table item underneath the recipe entry:
+
+fieldguideadditions:crafting_table_recipe
+
+REMEMBER
+
+The entry ID must match everywhere:
+
+Category Entry:
+fieldguideadditions:crafting_table_recipe
+
+Recipe Mapping:
+fieldguideadditions:crafting_table_recipe
+
+Recipe Output / Find:
+fieldguideadditions:crafting_table_recipe
+
+Lang Name:
+fieldguide.name.fieldguideadditions.crafting_table_recipe
+
+Lang Description:
+fieldguide.fieldguideadditions.crafting_table_recipe.description
+
+If the IDs do not match exactly, the item may not appear under the recipe grid.

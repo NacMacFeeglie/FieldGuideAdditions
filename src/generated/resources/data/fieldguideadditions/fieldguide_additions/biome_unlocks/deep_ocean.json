@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:deep_ocean"
+      ],
+      "unlock": "fieldguideadditions:deep_ocean"
+    }
+  ]
+}

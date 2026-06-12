@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:soul_sand_valley"
+      ],
+      "unlock": "fieldguideadditions:soul_sand_valley"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:windswept_hills"
+      ],
+      "unlock": "fieldguideadditions:windswept_hills"
+    }
+  ]
+}

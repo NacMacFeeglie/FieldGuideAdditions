@@ -1,0 +1,12 @@
+{
+  "additions": [
+    {
+      "entry": "fieldguideadditions:rainforest",
+      "value": "minecraft:bamboo"
+    },
+    {
+      "entry": "fieldguideadditions:rainforest",
+      "value": "minecraft:melon"
+    }
+  ]
+}

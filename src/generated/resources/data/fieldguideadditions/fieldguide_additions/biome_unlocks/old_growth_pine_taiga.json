@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:old_growth_pine_taiga"
+      ],
+      "unlock": "fieldguideadditions:old_growth_pine_taiga"
+    }
+  ]
+}

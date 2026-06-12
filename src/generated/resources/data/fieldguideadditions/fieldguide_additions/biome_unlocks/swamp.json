@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:swamp"
+      ],
+      "unlock": "fieldguideadditions:swamp"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:mushroom_fields"
+      ],
+      "unlock": "fieldguideadditions:mushroom_fields"
+    }
+  ]
+}

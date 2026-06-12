@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:nether_wastes"
+      ],
+      "unlock": "fieldguideadditions:nether_wastes"
+    }
+  ]
+}

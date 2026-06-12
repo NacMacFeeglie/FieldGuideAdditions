@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:savanna_plateau"
+      ],
+      "unlock": "fieldguideadditions:savanna_plateau"
+    }
+  ]
+}

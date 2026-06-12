@@ -1,0 +1,79 @@
+LANG FILES
+
+This file controls the name and description displayed in the Field Guide.
+
+Example:
+
+{
+"fieldguide.name.fieldguideadditions.rainforest": "Rainforest",
+"fieldguide.fieldguideadditions.rainforest.description": "A dense tropical rainforest added by an example datapack."
+}
+
+FIELD EXPLANATIONS
+
+Entry Name
+
+Format:
+
+fieldguide.name.fieldguideadditions.<entry_id>
+
+Example:
+
+fieldguide.name.fieldguideadditions.rainforest
+
+This controls the title shown at the top of the Field Guide page.
+
+Entry Description
+
+Format:
+
+fieldguide.fieldguideadditions.<entry_id>.description
+
+Example:
+
+fieldguide.fieldguideadditions.rainforest.description
+
+This controls the text shown beneath the entry image.
+
+IMPORTANT
+
+The <entry_id> must match the ID used in:
+
+examples/example_datapack/data/fieldguideadditions/fieldguide/categories/modded_biomes.json
+
+Example:
+
+{
+"type": "virtual_entry",
+"id": "fieldguideadditions:rainforest",
+"virtual_type": "tutorial",
+"icon": "fieldguideadditions:textures/fieldguide/entries/rainforest_page.png"
+}
+
+Because the entry ID is:
+
+fieldguideadditions:rainforest
+
+the lang keys must use:
+
+rainforest
+
+Example:
+
+fieldguide.name.fieldguideadditions.rainforest
+fieldguide.fieldguideadditions.rainforest.description
+
+If the IDs do not match exactly, the Field Guide will not be able to find the correct name and description.
+
+EXAMPLE
+
+Category Entry ID:
+fieldguideadditions:rainforest
+
+Name Key:
+fieldguide.name.fieldguideadditions.rainforest
+
+Description Key:
+fieldguide.fieldguideadditions.rainforest.description
+
+All three must use the same entry ID ("rainforest").

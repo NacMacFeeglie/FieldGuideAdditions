@@ -1,0 +1,9 @@
+{
+  "type": "virtual_entry",
+  "id": "fieldguideadditions:crafting_table_recipe",
+  "virtual_type": "tutorial",
+  "unlock": {
+    "triggers": ["obtain"],
+    "trigger_on": ["item:minecraft/oak_planks"]
+  }
+}

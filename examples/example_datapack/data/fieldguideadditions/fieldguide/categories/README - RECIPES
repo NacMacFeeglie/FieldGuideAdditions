@@ -1,0 +1,137 @@
+RECIPE CATEGORY ENTRIES
+
+This file controls which recipe entries appear in the Recipes category of the Field Guide.
+
+Example:
+
+{
+"sort_index": 2,
+"icon": "minecraft:crafting_table",
+"contents": [
+{
+"type": "virtual_entry",
+"id": "fieldguideadditions:crafting_table_recipe",
+"virtual_type": "tutorial",
+"unlock": {
+"triggers": ["obtain"],
+"trigger_on": ["item:minecraft/oak_planks"]
+}
+}
+]
+}
+
+FIELD EXPLANATIONS
+
+"sort_index"
+
+Controls the order that the Recipes category appears in the Field Guide. Lower numbers appear first.
+
+"icon"
+
+The item used as the category icon.
+
+Example:
+
+minecraft:crafting_table
+
+"contents"
+
+The list of recipe entries shown in this category.
+
+"type": "virtual_entry"
+
+This should always be left as "virtual_entry" for custom recipe entries.
+
+"id"
+
+This is the unique Field Guide entry ID.
+
+Example:
+
+fieldguideadditions:crafting_table_recipe
+
+IMPORTANT
+
+This ID must match the lang keys and any loot modifier entries for this recipe.
+
+Example lang keys:
+
+fieldguide.name.fieldguideadditions.crafting_table_recipe
+fieldguide.fieldguideadditions.crafting_table_recipe.description
+
+"virtual_type": "tutorial"
+
+This should always be left as "tutorial".
+
+"unlock"
+
+Controls how the entry is unlocked.
+
+"triggers": ["obtain"]
+
+This means the entry unlocks when the player obtains an item.
+
+"trigger_on"
+
+The item that unlocks the entry.
+
+Example:
+
+item:minecraft/oak_planks
+
+This means the recipe entry unlocks when the player obtains oak planks.
+
+FULL EXAMPLE
+
+{
+"type": "virtual_entry",
+"id": "fieldguideadditions:crafting_table_recipe",
+"virtual_type": "tutorial",
+"unlock": {
+"triggers": ["obtain"],
+"trigger_on": ["item:minecraft/oak_planks"]
+}
+}
+
+This creates a recipe entry called:
+
+fieldguideadditions:crafting_table_recipe
+
+and unlocks it when the player obtains:
+
+minecraft:oak_planks
+
+ADDING MORE RECIPE ENTRIES
+
+Add another object inside "contents":
+
+{
+"type": "virtual_entry",
+"id": "fieldguideadditions:primitive_fire_recipe",
+"virtual_type": "tutorial",
+"unlock": {
+"triggers": ["obtain"],
+"trigger_on": ["item:minecraft/stick"]
+}
+}
+
+Then add matching lang keys:
+
+fieldguide.name.fieldguideadditions.primitive_fire_recipe
+fieldguide.fieldguideadditions.primitive_fire_recipe.description
+
+REMEMBER
+
+The entry ID must match everywhere:
+
+Category Entry:
+fieldguideadditions:primitive_fire_recipe
+
+Lang Name:
+fieldguide.name.fieldguideadditions.primitive_fire_recipe
+
+Lang Description:
+fieldguide.fieldguideadditions.primitive_fire_recipe.description
+
+Loot Modifier Entry, if used:
+fieldguideadditions:primitive_fire_recipe

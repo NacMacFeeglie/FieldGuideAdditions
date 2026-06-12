@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:stony_shore"
+      ],
+      "unlock": "fieldguideadditions:stony_shore"
+    }
+  ]
+}

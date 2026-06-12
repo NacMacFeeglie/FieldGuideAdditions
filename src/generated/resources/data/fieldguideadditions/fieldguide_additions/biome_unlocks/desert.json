@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:desert"
+      ],
+      "unlock": "fieldguideadditions:desert"
+    }
+  ]
+}

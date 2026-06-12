@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:snowy_beach"
+      ],
+      "unlock": "fieldguideadditions:snowy_beach"
+    }
+  ]
+}

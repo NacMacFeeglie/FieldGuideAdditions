@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:lukewarm_ocean"
+      ],
+      "unlock": "fieldguideadditions:lukewarm_ocean"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "sort_index": 2,
+  "icon": "minecraft:crafting_table",
+  "contents": [
+    {
+      "type": "virtual_entry",
+      "id": "fieldguideadditions:crafting_table_recipe",
+      "virtual_type": "tutorial",
+      "unlock": {
+        "triggers": ["obtain"],
+        "trigger_on": ["item:minecraft/oak_planks"]
+      }
+    },
+    {
+      "type": "virtual_entry",
+      "id": "fieldguideadditions:hay_block_recipe",
+      "virtual_type": "tutorial",
+      "unlock": {
+        "triggers": ["obtain"],
+        "trigger_on": ["item:minecraft/wheat"]
+      }
+    },
+    {
+      "type": "virtual_entry",
+      "id": "fieldguideadditions:slime_block_recipe",
+      "virtual_type": "tutorial",
+      "unlock": {
+        "triggers": ["obtain"],
+        "trigger_on": ["item:minecraft/slime_ball"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:stony_peaks"
+      ],
+      "unlock": "fieldguideadditions:stony_peaks"
+    }
+  ]
+}

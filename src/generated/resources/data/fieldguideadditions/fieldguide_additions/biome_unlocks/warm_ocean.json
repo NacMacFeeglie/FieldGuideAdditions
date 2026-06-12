@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:warm_ocean"
+      ],
+      "unlock": "fieldguideadditions:warm_ocean"
+    }
+  ]
+}

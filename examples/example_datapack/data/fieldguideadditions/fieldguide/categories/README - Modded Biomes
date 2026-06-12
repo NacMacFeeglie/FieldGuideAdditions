@@ -1,0 +1,85 @@
+ADDING CUSTOM BIOMES
+
+To add a custom biome entry to the Field Guide, edit the file:
+
+data/fieldguideadditions/fieldguide/categories/modded_biomes.json
+
+Example:
+
+{
+"sort_index": 2,
+"icon": "minecraft:grass_block",
+"contents": [
+{
+"type": "virtual_entry",
+"id": "fieldguideadditions:rainforest",
+"virtual_type": "tutorial",
+"icon": "fieldguideadditions:textures/fieldguide/entries/rainforest_page.png"
+}
+]
+}
+
+FIELD EXPLANATIONS
+
+"sort_index"
+Controls the order that the Modded Biomes category appears in the Field Guide. Lower numbers appear first.
+
+"icon"
+The item used as the category icon. This can be any valid Minecraft item ID.
+
+Examples:
+minecraft:grass_block
+minecraft:apple
+minecraft:compass
+
+"type": "virtual_entry"
+This should always be left as "virtual_entry" for custom biome entries.
+
+"id"
+This is the unique Field Guide entry ID.
+
+Example:
+
+fieldguideadditions:rainforest
+
+Important:
+
+* The ID should always begin with "fieldguideadditions:"
+* The ID must match the unlock ID used in the biome unlock file.
+* The ID must match the lang keys used for the entry name and description.
+* The ID must match any loot modifier entries added to the biome.
+
+"virtual_type": "tutorial"
+This should always be left as "tutorial".
+
+"icon"
+This is the image shown on the left page of the biome entry.
+
+Example:
+
+fieldguideadditions:textures/fieldguide/entries/rainforest_page.png
+
+The image file must be placed at:
+
+assets/fieldguideadditions/textures/fieldguide/entries/
+
+Recommended image size:
+
+512 x 512 PNG
+
+EXAMPLE
+
+Biome Entry ID:
+fieldguideadditions:rainforest
+
+Biome Unlock:
+fieldguideadditions:rainforest
+
+Lang Keys:
+fieldguide.name.fieldguideadditions.rainforest
+fieldguide.fieldguideadditions.rainforest.description
+
+Image:
+assets/fieldguideadditions/textures/fieldguide/entries/rainforest_page.png
+
+All of these should use the same entry name ("rainforest") to ensure the entry works correctly.

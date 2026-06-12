@@ -1,0 +1,348 @@
+{
+  "additions": [
+    {
+      "entry": "fieldguideadditions:savanna",
+      "value": "minecraft:acacia_sapling"
+    },
+    {
+      "entry": "fieldguideadditions:savanna",
+      "value": "minecraft:tall_grass"
+    },
+    {
+      "entry": "fieldguideadditions:deep_dark",
+      "value": "minecraft:sculk"
+    },
+    {
+      "entry": "fieldguideadditions:deep_dark",
+      "value": "minecraft:echo_shard"
+    },
+    {
+      "entry": "fieldguideadditions:beach",
+      "value": "minecraft:sand"
+    },
+    {
+      "entry": "fieldguideadditions:beach",
+      "value": "minecraft:sugar_cane"
+    },
+    {
+      "entry": "fieldguideadditions:swamp",
+      "value": "minecraft:blue_orchid"
+    },
+    {
+      "entry": "fieldguideadditions:swamp",
+      "value": "minecraft:slime_ball"
+    },
+    {
+      "entry": "fieldguideadditions:meadow",
+      "value": "minecraft:allium"
+    },
+    {
+      "entry": "fieldguideadditions:meadow",
+      "value": "minecraft:bee_nest"
+    },
+    {
+      "entry": "fieldguideadditions:jungle",
+      "value": "minecraft:bamboo"
+    },
+    {
+      "entry": "fieldguideadditions:jungle",
+      "value": "minecraft:melon"
+    },
+    {
+      "entry": "fieldguideadditions:jungle",
+      "value": "minecraft:cocoa_beans"
+    },
+    {
+      "entry": "fieldguideadditions:frozen_peaks",
+      "value": "minecraft:packed_ice"
+    },
+    {
+      "entry": "fieldguideadditions:frozen_peaks",
+      "value": "minecraft:goat_horn"
+    },
+    {
+      "entry": "fieldguideadditions:ice_spikes",
+      "value": "minecraft:packed_ice"
+    },
+    {
+      "entry": "fieldguideadditions:ice_spikes",
+      "value": "minecraft:ice"
+    },
+    {
+      "entry": "fieldguideadditions:dripstone_caves",
+      "value": "minecraft:pointed_dripstone"
+    },
+    {
+      "entry": "fieldguideadditions:dripstone_caves",
+      "value": "minecraft:dripstone_block"
+    },
+    {
+      "entry": "fieldguideadditions:desert",
+      "value": "minecraft:cactus"
+    },
+    {
+      "entry": "fieldguideadditions:desert",
+      "value": "minecraft:dead_bush"
+    },
+    {
+      "entry": "fieldguideadditions:sparse_jungle",
+      "value": "minecraft:melon"
+    },
+    {
+      "entry": "fieldguideadditions:sparse_jungle",
+      "value": "minecraft:cocoa_beans"
+    },
+    {
+      "entry": "fieldguideadditions:badlands",
+      "value": "minecraft:gold_ore"
+    },
+    {
+      "entry": "fieldguideadditions:badlands",
+      "value": "minecraft:red_sand"
+    },
+    {
+      "entry": "fieldguideadditions:badlands",
+      "value": "minecraft:dead_bush"
+    },
+    {
+      "entry": "fieldguideadditions:plains",
+      "value": "minecraft:dandelion"
+    },
+    {
+      "entry": "fieldguideadditions:plains",
+      "value": "minecraft:cornflower"
+    },
+    {
+      "entry": "fieldguideadditions:crimson_forest",
+      "value": "minecraft:crimson_fungus"
+    },
+    {
+      "entry": "fieldguideadditions:crimson_forest",
+      "value": "minecraft:shroomlight"
+    },
+    {
+      "entry": "fieldguideadditions:crimson_forest",
+      "value": "minecraft:weeping_vines"
+    },
+    {
+      "entry": "fieldguideadditions:dark_forest",
+      "value": "minecraft:dark_oak_sapling"
+    },
+    {
+      "entry": "fieldguideadditions:dark_forest",
+      "value": "minecraft:brown_mushroom"
+    },
+    {
+      "entry": "fieldguideadditions:dark_forest",
+      "value": "minecraft:red_mushroom"
+    },
+    {
+      "entry": "fieldguideadditions:forest",
+      "value": "minecraft:oak_sapling"
+    },
+    {
+      "entry": "fieldguideadditions:forest",
+      "value": "minecraft:bee_nest"
+    },
+    {
+      "entry": "fieldguideadditions:wooded_badlands",
+      "value": "minecraft:gold_ore"
+    },
+    {
+      "entry": "fieldguideadditions:wooded_badlands",
+      "value": "minecraft:oak_sapling"
+    },
+    {
+      "entry": "fieldguideadditions:cold_ocean",
+      "value": "minecraft:kelp"
+    },
+    {
+      "entry": "fieldguideadditions:cold_ocean",
+      "value": "minecraft:cod"
+    },
+    {
+      "entry": "fieldguideadditions:mushroom_fields",
+      "value": "minecraft:red_mushroom"
+    },
+    {
+      "entry": "fieldguideadditions:mushroom_fields",
+      "value": "minecraft:brown_mushroom"
+    },
+    {
+      "entry": "fieldguideadditions:mushroom_fields",
+      "value": "minecraft:mycelium"
+    },
+    {
+      "entry": "fieldguideadditions:mangrove_swamp",
+      "value": "minecraft:mangrove_propagule"
+    },
+    {
+      "entry": "fieldguideadditions:mangrove_swamp",
+      "value": "minecraft:mud"
+    },
+    {
+      "entry": "fieldguideadditions:mangrove_swamp",
+      "value": "minecraft:frogspawn"
+    },
+    {
+      "entry": "fieldguideadditions:nether_wastes",
+      "value": "minecraft:nether_quartz_ore"
+    },
+    {
+      "entry": "fieldguideadditions:nether_wastes",
+      "value": "minecraft:glowstone"
+    },
+    {
+      "entry": "fieldguideadditions:windswept_hills",
+      "value": "minecraft:emerald_ore"
+    },
+    {
+      "entry": "fieldguideadditions:windswept_hills",
+      "value": "minecraft:goat_horn"
+    },
+    {
+      "entry": "fieldguideadditions:soul_sand_valley",
+      "value": "minecraft:soul_sand"
+    },
+    {
+      "entry": "fieldguideadditions:soul_sand_valley",
+      "value": "minecraft:soul_soil"
+    },
+    {
+      "entry": "fieldguideadditions:soul_sand_valley",
+      "value": "minecraft:bone_block"
+    },
+    {
+      "entry": "fieldguideadditions:warm_ocean",
+      "value": "minecraft:brain_coral"
+    },
+    {
+      "entry": "fieldguideadditions:warm_ocean",
+      "value": "minecraft:tube_coral"
+    },
+    {
+      "entry": "fieldguideadditions:warped_forest",
+      "value": "minecraft:warped_fungus"
+    },
+    {
+      "entry": "fieldguideadditions:warped_forest",
+      "value": "minecraft:shroomlight"
+    },
+    {
+      "entry": "fieldguideadditions:warped_forest",
+      "value": "minecraft:twisting_vines"
+    },
+    {
+      "entry": "fieldguideadditions:taiga",
+      "value": "minecraft:spruce_sapling"
+    },
+    {
+      "entry": "fieldguideadditions:taiga",
+      "value": "minecraft:sweet_berries"
+    },
+    {
+      "entry": "fieldguideadditions:grove",
+      "value": "minecraft:spruce_sapling"
+    },
+    {
+      "entry": "fieldguideadditions:grove",
+      "value": "minecraft:rabbit"
+    },
+    {
+      "entry": "fieldguideadditions:bamboo_jungle",
+      "value": "minecraft:bamboo"
+    },
+    {
+      "entry": "fieldguideadditions:bamboo_jungle",
+      "value": "minecraft:panda_spawn_egg"
+    },
+    {
+      "entry": "fieldguideadditions:bamboo_jungle",
+      "value": "minecraft:melon"
+    },
+    {
+      "entry": "fieldguideadditions:basalt_deltas",
+      "value": "minecraft:basalt"
+    },
+    {
+      "entry": "fieldguideadditions:basalt_deltas",
+      "value": "minecraft:blackstone"
+    },
+    {
+      "entry": "fieldguideadditions:basalt_deltas",
+      "value": "minecraft:magma_block"
+    },
+    {
+      "entry": "fieldguideadditions:lush_caves",
+      "value": "minecraft:glow_berries"
+    },
+    {
+      "entry": "fieldguideadditions:lush_caves",
+      "value": "minecraft:moss_block"
+    },
+    {
+      "entry": "fieldguideadditions:lush_caves",
+      "value": "minecraft:spore_blossom"
+    },
+    {
+      "entry": "fieldguideadditions:stony_peaks",
+      "value": "minecraft:emerald_ore"
+    },
+    {
+      "entry": "fieldguideadditions:stony_peaks",
+      "value": "minecraft:calcite"
+    },
+    {
+      "entry": "fieldguideadditions:river",
+      "value": "minecraft:sugar_cane"
+    },
+    {
+      "entry": "fieldguideadditions:river",
+      "value": "minecraft:clay_ball"
+    },
+    {
+      "entry": "fieldguideadditions:birch_forest",
+      "value": "minecraft:birch_sapling"
+    },
+    {
+      "entry": "fieldguideadditions:birch_forest",
+      "value": "minecraft:lily_of_the_valley"
+    },
+    {
+      "entry": "fieldguideadditions:flower_forest",
+      "value": "minecraft:allium"
+    },
+    {
+      "entry": "fieldguideadditions:flower_forest",
+      "value": "minecraft:oxeye_daisy"
+    },
+    {
+      "entry": "fieldguideadditions:flower_forest",
+      "value": "minecraft:lilac"
+    },
+    {
+      "entry": "fieldguideadditions:ocean",
+      "value": "minecraft:kelp"
+    },
+    {
+      "entry": "fieldguideadditions:ocean",
+      "value": "minecraft:seagrass"
+    },
+    {
+      "entry": "fieldguideadditions:cherry_grove",
+      "value": "minecraft:cherry_sapling"
+    },
+    {
+      "entry": "fieldguideadditions:cherry_grove",
+      "value": "minecraft:pink_petals"
+    },
+    {
+      "entry": "fieldguideadditions:snowy_taiga",
+      "value": "minecraft:spruce_sapling"
+    },
+    {
+      "entry": "fieldguideadditions:snowy_taiga",
+      "value": "minecraft:sweet_berries"
+    }
+  ]
+}

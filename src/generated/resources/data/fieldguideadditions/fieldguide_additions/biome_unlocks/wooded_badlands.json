@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:wooded_badlands"
+      ],
+      "unlock": "fieldguideadditions:wooded_badlands"
+    }
+  ]
+}

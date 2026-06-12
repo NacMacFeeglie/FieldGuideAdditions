@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "biomesoplenty:rainforest"
+      ],
+      "unlock": "fieldguideadditions:rainforest"
+    }
+  ]
+}

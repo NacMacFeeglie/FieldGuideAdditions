@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:mangrove_swamp"
+      ],
+      "unlock": "fieldguideadditions:mangrove_swamp"
+    }
+  ]
+}

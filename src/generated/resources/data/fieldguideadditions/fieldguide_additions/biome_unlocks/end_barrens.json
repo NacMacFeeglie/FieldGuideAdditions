@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:end_barrens"
+      ],
+      "unlock": "fieldguideadditions:end_barrens"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:end_highlands"
+      ],
+      "unlock": "fieldguideadditions:end_highlands"
+    }
+  ]
+}

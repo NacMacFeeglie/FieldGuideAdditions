@@ -1,0 +1,10 @@
+{
+  "entries": [
+    {
+      "biomes": [
+        "minecraft:taiga"
+      ],
+      "unlock": "fieldguideadditions:taiga"
+    }
+  ]
+}
